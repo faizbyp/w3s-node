@@ -13,7 +13,7 @@ const fs = require('fs');
 // });
 
 // write file, replaced if exist
-fs.writeFile('mynewfile3.txt', 'Hello content!', (err) => {
+fs.writeFile('myNewFile3.txt', 'Hello content!', (err) => {
   if (err) throw err;
   console.log('Saved');
 });
